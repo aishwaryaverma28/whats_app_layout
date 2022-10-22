@@ -9,17 +9,23 @@
 }
 .main_page{
     /* border: solid black; */
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     display: grid;
+    margin-top: 3vh;
+    grid-template-columns: 1fr 2.5fr;
 }
-.left_head{
+.right_head, .left_head{
    height: 3.5rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
     background-color: #ffc2d1;
     /* border: solid red; */
+}
+.left_head{
+    margin-left: 8px;
+    border-right: 2px solid rgb(247, 149, 165);
 }
 .left_head img{
     width: 40px;
@@ -35,3 +41,17 @@
     margin: 8px 8px;
     margin-right: 10px;
 }
+
+.right_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid red; */
+  }
+  .right_head img {
+    width: 28px;
+    border-radius: 50%;
+    margin-left: 30px;
+  }
+  
+  
